@@ -5,8 +5,9 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="nav__link" to="/">首页</g-link>
+        <g-link class="nav__link" to="/post">文章</g-link>
+        <g-link class="nav__link" to="/about/">关于我们</g-link>
       </nav>
     </header>
     <slot/>
